@@ -4,22 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HW
+namespace wh1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            bool alive = true;
-            int hp = 50;
-            float damage = 7.76f;
-            double healing = 7.5;
-            byte money = 255;
-            sbyte spentMoney = -128;
-            short armor = 100;
-            ushort damageArmor = -100;
-            char symbol = '*';
-            string str = "Привет!";
+            string name, zodiacSign, work;
+            int age;
+
+            Console.Write("Ваше имя: ");
+            name = Console.ReadLine();
+
+            Console.Write("Ваш возраст: ");
+            age = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Ваш знак зодиака: ");
+            zodiacSign = Console.ReadLine();
+
+            Console.Write("Где вы работаете? ");
+            work = Console.ReadLine();
+
+            Console.WriteLine($"Вас зовут {name}, возраст {age}, знак зодиака {zodiacSign}, и работаете {work}.");
+            Console.ReadLine();
         }
     }
 }
