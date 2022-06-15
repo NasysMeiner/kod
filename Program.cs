@@ -17,7 +17,7 @@ namespace HW
             byte money = 255;
             sbyte spentMoney = -128;
             short armor = 100;
-            ushort damageArmor = 100;
+            ushort damageArmor = -100;
             char symbol = '*';
             string str = "Привет!";
         }
