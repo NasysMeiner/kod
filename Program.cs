@@ -32,9 +32,9 @@ namespace hw6._2
 
     class Draw
     {
-        public void DrawPlayer(int x, int y)
+        public void DrawPlayer(int positionX, int positionY)
         {
-            Console.SetCursorPosition(x, y);
+            Console.SetCursorPosition(positionX, positionY);
             Console.Write("%");
         }
     }
