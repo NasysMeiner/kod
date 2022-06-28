@@ -22,12 +22,12 @@ namespace hw6._2
     {
         public Player(int positionX, int positionY)
         {
-            X = positionX;
-            Y = positionY;
+            XPosition = positionX;
+            YPosition = positionY;
         }
 
-        public int X { get; private set; }
-        public int Y { get; private set; }
+        public int XPosition { get; private set; }
+        public int YPosition { get; private set; }
     }
 
     class Draw
